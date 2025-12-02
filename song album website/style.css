@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(
+        to bottom,
+        #f9f6c1,
+        #1d4d8f,
+        #ff1c00,
+        #4f6aab,
+        #4f6aab,
+        #7ca4d7,
+        #d62d08,
+        #a3bacc
+    );
+}
+
+header {
+    text-align: center;
+}
+
+main {
+    width: 700px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.album {
+    padding: 5px;
+    margin: 10px;
+}
+
+img {
+    width: 270px;
+    height: 270px;
+}
+
+.albumName h2 {
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.albumArt {
+    float: left;
+    margin: 10px;
+    padding: 0px;
+    border-style: solid;
+    width: 270px;
+    height: 270px;
+}
+
+.albumTrackList {
+    border-style: solid;
+    margin: 10px;
+    overflow: hidden;
+    padding: 5px;
+}
+
+.blurb {
+    clear: both;
+    border-style: solid;
+    margin: 10px;
+    padding: 5px;
+}
+
+#direStraits {
+    background-color: #f9f6c1;
+}
+
+#communique {
+    background-color: #1d4d8f;
+}
+
+#makingMovies {
+    background-color: #ff1c00;
+}
+
+#loveOverGold {
+    background-color: #4f6aab;
+}
+
+#brothersInArms {
+    background-color: #7ca4d7;
+}
+
+#onEveryStreet {
+    background-color: #d62d08;
+}
+
+#alchemy {
+    background-color: #a3bacc;
+}
